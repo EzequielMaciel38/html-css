@@ -6,16 +6,26 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Exenplo de Formulári</h1>
+    <h1>Exenplo de Formulário</h1>
 
     <form action="cadastro.php" method="get">
+
         <p>
-            <label for="iemail">E-mail</label>
-            <input type="email" id="iemail">
+            <label for="íusu">Usuário:</label>
+            <input type="text" name="usu" id="íusu" required minlength="5" maxlength="30" size="11" placeholder="nome do usuárrio">
         </p>
+
         <p>
-            <input type="submit" value="Envia">
+            <label for="ísen">Senha:</label>
+            <input type="password" nane="sen" id="ísen" readonly minlength="10"  placeholder="digite sua senha" size="12">
         </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="linpar">
+        </p>
+
+
     </form>
 
 
