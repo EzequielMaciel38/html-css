@@ -11,19 +11,26 @@
         <label for="iest">Estado</label>
         <select name="estado" id="iset">
             <option value="" selected>---Escolha o Seu Estado---</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="SP">São Paulo</option>
-            <option value="MA">Maranhão</option>
-            <option value="PE">Pernanbuco</option>
-            <option value="RN">Rio Grande do Norte</option>
+            <option>Minas Gerais</option>
+            <option>Rio de Janeiro</option>
+            <option>São Paulo</option>
+            <option>Maranhão</option>
+            <option>Pernanbuco</option>
+            <option>Rio Grande do Norte</option>
         </select>
     </p>
     <p>
         <label for="iprof">Profição:</label>
         <input type="text" name="prof" id="iprof" list="lstprof">
-        da
+        <datalist id="lstprof">
+            <option>Adiministrador</option>
+            <option>Contabilista</option>
+            <option>Densenvolvedor</option>
+            <option>Professor</option>
+        </datalist>
     </p>
+    <label for="img">Mensagem:</label>
+    <textarea>
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
